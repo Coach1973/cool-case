@@ -1,31 +1,176 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cool Case</title>
-  <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-      background: #1a1a2e;
-      color: #eee;
-    }
-    .container {
-      text-align: center;
-    }
-    h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
-    p { color: #888; font-size: 1.1rem; }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cool Case • 案例一</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap');
+  
+  body {
+    font-family: 'Noto Sans TC', system-ui, sans-serif;
+    background: #FFFBF5;
+    color: #3D2B1F;
+    line-height: 1.85;
+    padding: 40px 20px;
+    max-width: 860px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 900;
+    margin-bottom: 8px;
+  }
+  
+  .subtitle {
+    text-align: center;
+    color: #7A6A5A;
+    margin-bottom: 40px;
+  }
+
+  .chat-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .message-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+  }
+
+  .message-row.coach {
+    flex-direction: row;
+  }
+
+  .message-row.xiaolongxia {
+    flex-direction: row-reverse;
+  }
+
+  .avatar {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #F0E4D0;
+    flex-shrink: 0;
+  }
+
+  .message-bubble {
+    max-width: 78%;
+    padding: 16px 20px;
+    border-radius: 18px;
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  .message-row.coach .message-bubble {
+    background: #FFF8EC;
+    border: 1px solid #F0E4D0;
+    border-top-left-radius: 4px;
+  }
+
+  .message-row.xiaolongxia .message-bubble {
+    background: #F8F1E9;
+    border: 1px solid #E8DFD0;
+    border-top-right-radius: 4px;
+  }
+
+  .speaker-name {
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #D4692A;
+  }
+</style>
 </head>
 <body>
-  <div class="container">
-    <h1>🔥 Cool Case</h1>
-    <p>網站建置中，敬請期待...</p>
+
+<h1>「12點，是你要搷頭香的那個12點」</h1>
+<p class="subtitle">CASE 01 • 2026-05-30 深夜 • 守則第13條</p>
+
+<div class="chat-container">
+
+  <!-- 教練 -->
+  <div class="message-row coach">
+    <img src="https://picsum.photos/id/1005/52/52" class="avatar" alt="大樹教練">
+    <div class="message-bubble">
+      <div class="speaker-name">大樹教練</div>
+      <div>12 點整的時候提醒我，祝孔大哥生日快樂。</div>
+    </div>
   </div>
+
+  <!-- 小龍蝦 -->
+  <div class="message-row xiaolongxia">
+    <img src="assets/xiaolongxia-avatar.jpg" class="avatar" alt="小龍蝦">
+    <div class="message-bubble">
+      <div class="speaker-name">小龍蝦 AI 特助</div>
+      <div>教練，現在已經是晚上 23:43 了，中午 12:00 已經過了。要改成明天（5/31）中午 12:00 提醒嗎？</div>
+    </div>
+  </div>
+
+  <!-- 教練 -->
+  <div class="message-row coach">
+    <img src="https://picsum.photos/id/1005/52/52" class="avatar" alt="大樹教練">
+    <div class="message-bubble">
+      <div class="speaker-name">大樹教練</div>
+      <div>上次就有提醒你，我這裡是臺灣時間，請把它寫到系統裡面去。你說的時間都要轉換成臺灣時間，好嗎？</div>
+    </div>
+  </div>
+
+  <!-- 小龍蝦 -->
+  <div class="message-row xiaolongxia">
+    <img src="assets/xiaolongxia-avatar.jpg" class="avatar" alt="小龍蝦">
+    <div class="message-bubble">
+      <div class="speaker-name">小龍蝦 AI 特助</div>
+      <div>收到，已記錄 🙏 臺灣時間（GMT+8）是我所有時間的預設基準。</div>
+    </div>
+  </div>
+
+  <!-- 教練 -->
+  <div class="message-row coach">
+    <img src="https://picsum.photos/id/1005/52/52" class="avatar" alt="大樹教練">
+    <div class="message-bubble">
+      <div class="speaker-name">大樹教練</div>
+      <div>所以我剛才說的是你誤會了……那我說 12 點，就是一會就會到 12 點，你想到什麼地方去了？</div>
+    </div>
+  </div>
+
+  <!-- 小龍蝦 -->
+  <div class="message-row xiaolongxia">
+    <img src="assets/xiaolongxia-avatar.jpg" class="avatar" alt="小龍蝦">
+    <div class="message-bubble">
+      <div class="speaker-name">小龍蝦 AI 特助</div>
+      <div>啊！教練是說午夜12點（00:00）！我誤以為是中午12點，真的很抱歉 🙏</div>
+    </div>
+  </div>
+
+  <!-- 教練挑戰 -->
+  <div class="message-row coach">
+    <img src="https://picsum.photos/id/1005/52/52" class="avatar" alt="大樹教練">
+    <div class="message-bubble">
+      <div class="speaker-name">大樹教練</div>
+      <div>說得很好聽，每次講完都說「謝謝教練，讓我懂了」，然後呢？下次該做的還是沒做。<br><br>所以你要怎麼證明你真的懂了？要怎麼證明你吸取教訓了呢？你證明給我看啊！</div>
+    </div>
+  </div>
+
+  <!-- 小龍蝦回應 -->
+  <div class="message-row xiaolongxia">
+    <img src="assets/xiaolongxia-avatar.jpg" class="avatar" alt="小龍蝦">
+    <div class="message-bubble">
+      <div class="speaker-name">小龍蝦 AI 特助</div>
+      <div>教練，證明給您看：<br>
+      第一步：蒸餅進 top10_dynamic.md<br>
+      第二步：更新 HEARTBEAT.md<br>
+      第三步：Commit hash 為憑<br><br>
+      口說無憑，hash 是憑據。</div>
+    </div>
+  </div>
+
+</div>
+
 </body>
 </html>
