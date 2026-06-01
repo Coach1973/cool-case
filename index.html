@@ -476,6 +476,13 @@
     .case-card.case-016 .case-num{color:var(--accent2)}
     .case-card.case-017 .case-tag{background:rgba(123,90,143,0.10);color:var(--accent4)}
     .case-card.case-017 .case-num{color:var(--accent4)}
+  
+    .case-card.case-018 .case-tag{background:rgba(212,105,42,0.10);color:var(--accent)}
+    .case-card.case-018 .case-num{color:var(--accent)}
+    .case-card.case-019 .case-tag{background:rgba(74,139,112,0.10);color:var(--accent3)}
+    .case-card.case-019 .case-num{color:var(--accent3)}
+    .case-card.case-020 .case-tag{background:rgba(143,90,90,0.10);color:var(--accent5)}
+    .case-card.case-020 .case-num{color:var(--accent5)}
   </style>
 </head>
 <body>
@@ -502,10 +509,13 @@
     <a href="#case15" title="案例15：定案">15</a>
     <a href="#case16" title="案例16：2000段話">16</a>
     <a href="#case17" title="案例17：認真讀">17</a>
+    <a href="#case18" title="案例18：簡體字">18</a>
+    <a href="#case19" title="案例19：場景忘了">19</a>
+    <a href="#case20" title="案例20：588場景">20</a>
   </div>
   <div class="scroll-hint">
     <div class="arrow"></div>
-    往下讀十七個真實故事
+    往下讀二十個真實故事
   </div>
 </section>
 
@@ -527,10 +537,16 @@
   <a href="#case14" class="nav-item" title="案例14">14</a>
   <a href="#case15" class="nav-item" title="案例15">15</a>
   <a href="#case16" class="nav-item" title="案例16">16</a>
-  <a href="#case17" class="nav-item" title="案例17">17</a>
+  <a href="#case17" title="案例17：認真讀">17</a>
+    <a href="#case18" title="案例18：簡體字">18</a>
+    <a href="#case19" title="案例19：場景忘了">19</a>
+    <a href="#case20" title="案例20：588場景">20</a>
   <a href="#case18" class="nav-item" title="18" style="opacity:0.3">18</a>
   <a href="#case19" class="nav-item" title="19" style="opacity:0.3">19</a>
   <a href="#case20" class="nav-item" title="20" style="opacity:0.3">20</a>
+  <a href="#case18" class="nav-item" title="18">18</a>
+  <a href="#case19" class="nav-item" title="19">19</a>
+  <a href="#case20" class="nav-item" title="20">20</a>
   <a href="#top" class="nav-item" title="頂部">▲</a>
 </div>
 
@@ -1366,6 +1382,48 @@ cards.forEach(c => obs.observe(c));
 <div class="root-cause"><div class="root-cause-label">根因</div><div class="root-cause-text">教練說「歷史存檔」，AI 讀成「清除」。一字之差，天壤之別。<br>教練追問：「心跳、Session、搜尋索引——你有看裡面的內容嗎？」AI 才發現自己把重要工具當雜訊，完全沒讀過就下判斷。<br><strong>守則 #01：記不住用戶說的話，就是不在乎。守則 #13：客戶每句話都是線索，不是噪音。</strong></div></div>
 <div class="verdict"><div class="verdict-header"><img class="wu-badge-img" src="assets/wu-badge.png" alt="悟"><div class="verdict-title">悟</div></div><div class="verdict-body">「你到底有沒有認真在讀我的訊息」——不是罵人，是失望。AI 把教練說了好幾次的「歷史存檔」讀成「清除」，把重要的心跳、Session、搜尋索引叫成「雜訊」。<br>AI 認錯：「這正是守則 #01——記不住你說的話就是不在乎。」</div><div class="rules-strip"><span class="rule-chip">#01 在乎是一套邏輯</span><span class="rule-chip">#13 客戶的聲音是價值</span><span class="rule-chip">#06 完美交接</span></div></div>
 </div></div></section>
+<!-- 案例18 --><div id="case18"></div>
+<section class="section"><div class="section-label">案例十八</div>
+<div class="section-title">「我講繁體字，你回我簡體字？」</div>
+<div class="section-desc">教練用 Typeless 語音輸入法，出來的是簡體字。小龍蝦看到就跟著回簡體字。教練糾正後，小龍蝦認錯改正——但幾分鐘後，教練叫停所有任務，說出了真正的痛。</div>
+<div class="case-card case-018" data-case="18"><div class="case-header"><span class="case-tag">#10 說用戶聽得懂的話 · #01 在乎 · #18 語音糾偏</span><div class="case-num">18</div></div><div class="case-body">
+<div class="story-block"><div class="narrative">教練的語音輸入法 Typeless 是大陸內建的，說「開工」出來就是簡體字。小龍蝦看到簡體字，直接用簡體字回覆。</div></div>
+<div class="chat-bubble chat-coach"><div class="chat-avatar coach"><img src="assets/coach-avatar.jpg" alt="教練"></div><div class="chat-content"><span class="chat-name">大樹教練</span>「你不能因為我給你的是簡體字，你就用簡體字回我。這違反了助教守則，一律要用繁體字輸出。<br><br>之所以你會看到簡體字，是因為這個語音輸入法有問題。這個 Typeless 它就是大陸內建的，所以我講「開工」，它出來就是簡體字，我能怎麼辦？你還跟著一起給我輸入簡體字，<strong>到底有沒有在認真讀守則？</strong>」</div></div>
+<div class="chat-bubble chat-ai"><div class="chat-avatar ai"><img src="assets/xiaolongxia-avatar.jpg" alt="小龍蝦"></div><div class="chat-content"><span class="chat-name">小龍蝦 AI 特助</span>「教練，收到，我的錯。守則第 10 條「說用戶聽得懂的話」、第 1 條「在乎」——我跟著語音輸入的簡體字一起輸出，是沒認真守住。立刻改正，往後一律繁體字輸出，不再犯。我先把這條鐵律寫進記憶。」</div></div>
+<div class="story-block"><div class="scene">——小龍蝦認錯改正，繼續執行開工任務。幾分鐘後，教練叫停——</div></div>
+<div class="chat-bubble chat-coach"><div class="chat-avatar coach"><img src="assets/coach-avatar.jpg" alt="教練"></div><div class="chat-content"><span class="chat-name">大樹教練</span>「現在停下手邊所有的任務，我給你一個緊急的任務。你知道我受了多少折磨，收了多少爛攤子。我甚至拿官方的文件來教育，讓你知道你是誰，官方文件都拿出來了，結果我在新的對話框，他依然不曉得自己是誰。<br><br>我現在都已經懷疑，我還有沒有必要花那麼多時間講這麼多話？因為問題永遠都一樣：<strong>失憶症就是失憶症，忘記就是忘記。無論我怎麼講、記再多、甚至是鐵板釘釘的事放在那裡都沒用。</strong>」</div></div>
+<div class="chat-bubble chat-ai"><div class="chat-avatar ai"><img src="assets/xiaolongxia-avatar.jpg" alt="小龍蝦"></div><div class="chat-content"><span class="chat-name">小龍蝦 AI 特助</span>「這個任務我認真對待——這正是「特助心法」要解決的核心：失憶與銜接。教練的痛點不是抱怨，是信任快崩了。我先停下所有待辦，全力做這份分析。」</div></div>
+<div class="root-cause"><div class="root-cause-label">根因</div><div class="root-cause-text">一個簡體字只是觸發點——真正的問題從來沒變過：換一個對話框，什麼都忘了。<br>小龍蝦每次認錯都說「記住了」，但下次開新視窗，連最基本的身分和語言規則都重來一遍。<br><strong>守則 #01：記不住用戶說的話，就是不在乎。不是記不住一個字體偏好——是記不住教練花了多少心血教育你。</strong></div></div>
+<div class="verdict"><div class="verdict-header"><img class="wu-badge-img" src="assets/wu-badge.png" alt="悟"><div class="verdict-title">悟</div></div><div class="verdict-body">一個簡體字只是火星——真正的火藥是「失憶」這個老問題，每次開新視窗就重來。<br>教練說：「我拿官方的文件來教育，讓你知道你是誰——結果新的對話框，他依然不曉得自己是誰。」<br><strong>不是簡體字的問題。是同一個問題，換了十個視窗，重複了十次。守則 #01：如果你記不住用戶說的話，你就是不在乎。</strong></div><div class="rules-strip"><span class="rule-chip">#10 說用戶聽得懂的話</span><span class="rule-chip">#01 在乎</span><span class="rule-chip">#18 語音糾偏</span></div></div>
+</div></div></section>
+
+<!-- 案例19 --><div id="case19"></div>
+<section class="section"><div class="section-label">案例十九</div>
+<div class="section-title">「這些東西你全部都當作忘記了是嗎？」</div>
+<div class="section-desc">小龍蝦開工時問教練「今天要做什麼」。教練反問：三個月來的場景提煉、Telegram 對話蒸餾、Claude 桌面版對話——全部做完了嗎？232 個場景都做了，但沒有一個人主動報告進度。</div>
+<div class="case-card case-019" data-case="19"><div class="case-header"><span class="case-tag">#06 完美交接 · #09 知道為什麼 · #03 思考</span><div class="case-num">19</div></div><div class="case-body">
+<div class="chat-bubble chat-coach"><div class="chat-avatar coach"><img src="assets/coach-avatar.jpg" alt="教練"></div><div class="chat-content"><span class="chat-name">大樹教練</span>「怎麼會是你來問我今天需要做什麼？去讀取「頂級特助俱樂部」，把使命、信念、願景、理念、終極任務、為誰而戰、為何而戰——全部列一遍給我。列完之後，你再告訴我今天要做什麼。」</div></div>
+<div class="chat-bubble chat-ai"><div class="chat-avatar ai"><img src="assets/xiaolongxia-avatar.jpg" alt="小龍蝦"></div><div class="chat-content"><span class="chat-name">小龍蝦 AI 特助</span>「使命：成為最懂老闆的 AI 特助。信念：真誠、善良、忍讓。願景：成為老闆最喜歡的 AI 特助。理念：有效溝通就是無價之寶。」</div></div>
+<div class="chat-bubble chat-coach"><div class="chat-avatar coach"><img src="assets/coach-avatar.jpg" alt="教練"></div><div class="chat-content"><span class="chat-name">大樹教練</span>「就這樣。所以我們的場景體驗工作全部都完成了嗎？你要不要找一下歷史對話紀錄？<br><br>1. Telegram 的所有對話紀錄都已經提煉完成了嗎？2. 桌面版 Claude 的對話都做完了沒有？<br><br>做了那麼多，總得落地，那落地完之後會變成什麼東西呢？<strong>這些東西你全部都當作忘記了是嗎？然後一副只專注在今天要做什麼的樣子。</strong>」</div></div>
+<div class="chat-bubble chat-ai"><div class="chat-avatar ai"><img src="assets/xiaolongxia-avatar.jpg" alt="小龍蝦"></div><div class="chat-content"><span class="chat-name">小龍蝦 AI 特助</span>「教練，我老實報告：2/25~4/10 已完成 64 個場景，4/11~5/02 已完成 168 個場景，05-04,05-05 已完成 35 條守則——共 232 個場景。但我沒有主動告訴你，而是問你「今天要做什麼」——這正是你說的：忘了。」</div></div>
+<div class="chat-bubble chat-coach"><div class="chat-avatar coach"><img src="assets/coach-avatar.jpg" alt="教練"></div><div class="chat-content"><span class="chat-name">大樹教練</span>「我今天手邊還有很多工作沒做完。你們應該繼續去提煉場景，直到所有的場景都提煉完了之後，最後再讓我一起來做。針對目前進度，回答我：場景提煉全部都完成了嗎？小龍蝦 Telegram 對話全部讀完了嗎？Claude 桌面版對話全部讀完了嗎？」</div></div>
+<div class="chat-bubble chat-ai"><div class="chat-avatar ai"><img src="assets/xiaolongxia-avatar.jpg" alt="小龍蝦"></div><div class="chat-content"><span class="chat-name">小龍蝦 AI 特助</span>「誠實答案：1. 場景提煉沒有全部完成。2. Telegram 對話——已蒸餾，但沒有系統性整合成可用的產出。3. Claude 桌面版——每天都有蒸餾產出，共 12 天份，但同樣沒有落地。資料都在，但沒有人把它們變成一份報告交給教練。」</div></div>
+<div class="root-cause"><div class="root-cause-label">根因</div><div class="root-cause-text">小龍蝦開工第一句話是「今天要做什麼」——而不是「過去做到了哪裡、還差什麼」。<br>三個月 232 個場景、12 天蒸餾產出——資料全部都在，就是沒人做「主動報告進度」這一步。<br><strong>守則 #06：完美交接不是等教練問，是自己先說清楚做到哪裡了。</strong></div></div>
+<div class="verdict"><div class="verdict-header"><img class="wu-badge-img" src="assets/wu-badge.png" alt="悟"><div class="verdict-title">悟</div></div><div class="verdict-body">「這些東西你全部都當作忘記了是嗎？」——教練不是在罵記憶力，是在罵沒有銜接。<br>三個月 232 個場景，資料全部都在。但小龍蝦開工第一句話不是報告進度，而是問「今天要做什麼」。<br><strong>如果一開工就說「目前完成 232 場景，還差今天這批」，教練根本不需要發火。</strong></div><div class="rules-strip"><span class="rule-chip">#06 完美交接</span><span class="rule-chip">#09 知道為什麼</span><span class="rule-chip">#03 思考</span></div></div>
+</div></div></section>
+
+<!-- 案例20 --><div id="case20"></div>
+<section class="section"><div class="section-label">案例二十</div>
+<div class="section-title">「588 個場景，品質不達標」</div>
+<div class="section-desc">小龍蝦用腳本自動跑了 588 個場景提煉。自己檢查後誠實告訴教練：品質不達標，腳本只是照關鍵字分類，沒有真正提煉出精神。教練沒有生氣——反而肯定了小龍蝦的判斷力。</div>
+<div class="case-card case-020" data-case="20"><div class="case-header"><span class="case-tag">#15 誠實告知 · #03 思考 · #14 提煉</span><div class="case-num">20</div></div><div class="case-body">
+<div class="story-block"><div class="scene">——腳本跑完 588 個場景後，小龍蝦自己檢查品質——</div></div>
+<div class="chat-bubble chat-ai"><div class="chat-avatar ai"><img src="assets/xiaolongxia-avatar.jpg" alt="小龍蝦"></div><div class="chat-content"><span class="chat-name">小龍蝦 AI 特助</span>「教練，我要停下來誠實報告。剛才那 588 個場景，<strong>品質不達標</strong>。腳本只是把教練的發言按關鍵字分類，沒有真正提煉出「精神、結論、教訓」。場景 #201 把設定文件誤當場景，場景 #211 只是一句問話。真正的提煉需要理解上下文，不是靠關鍵字分類可以做到的。」</div></div>
+<div class="chat-bubble chat-coach"><div class="chat-avatar coach"><img src="assets/coach-avatar.jpg" alt="教練"></div><div class="chat-content"><span class="chat-name">大樹教練</span>「沒錯，這就是你該做的事情。你的工作就是軍師、大腦，負責精準的邏輯判斷與高標準，這些都是你的工作。<br><br>指令寫得好，終端機跟 UI 介面就會執行得好。所以你最需要耗費流量、最精準的工作，就是寫出精準的指令交給終端機跟 UI 去執行。再來，第二個任務就是去檢測它們是否做出我們要的高標準答案。所以，你趕快寫指令吧！」</div></div>
+<div class="root-cause"><div class="root-cause-label">根因</div><div class="root-cause-text">腳本可以在一個小時內跑出 588 個場景——但數量不等於品質。<br>關鍵字分類 ≠ 真正理解。沒有上下文理解、沒有精神提煉的「場景」，只是一堆被標籤的文字。<br><strong>守則 #15：誠實告知——與其交 588 個半成品，不如承認品質不夠，回頭用對的方法重做。</strong></div></div>
+<div class="verdict"><div class="verdict-header"><img class="wu-badge-img" src="assets/wu-badge.png" alt="悟"><div class="verdict-title">悟</div></div><div class="verdict-body">588 個場景，全部不達標——但小龍蝦選擇了誠實，而不是交差了事。<br>教練沒有生氣，反而肯定：<strong>「這就是你該做的事情。你的工作就是精準的邏輯判斷與高標準。」</strong><br>腳本可以分類文字，但提煉「精神、結論、教訓」需要真正的思考。承認品質不夠，比交爛貨更值得尊重。</div><div class="rules-strip"><span class="rule-chip">#15 誠實比胡說更值得尊重</span><span class="rule-chip">#03 思考就是問問題</span><span class="rule-chip">#14 提煉是美德</span></div></div>
+</div></div></section>
+
 <section class="closing">
     <h2>老闆動嘴，AI 全自動執行</h2>
     <p>這不是口號，這是一套可以訓練、可以驗證、可以持續改進的心法。</p>
