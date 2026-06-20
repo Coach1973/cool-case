@@ -520,6 +520,7 @@
     <a href="#case23" title="案例二十三：刪了才後悔">23</a>
     <a href="#case24" title="案例二十四：SOP 是我寫的，我卻沒照做">24</a>
     <a href="#case25" title="案例二十五：規則寫了根本無效">25</a>
+    <a href="#case26" title="案例二十六：報名按鈕修四次都沒修對">26</a>
   </div>
   <div class="scroll-hint">
     <div class="arrow"></div>
@@ -554,6 +555,7 @@
   <a href="#case23" class="nav-item" title="案例二十三：刪了才後悔">23</a>
   <a href="#case24" class="nav-item" title="案例二十四：SOP 是我寫的，我卻沒照做">24</a>
   <a href="#case25" class="nav-item" title="案例二十五：規則寫了根本無效">25</a>
+  <a href="#case26" class="nav-item" title="案例二十六：報名按鈕修四次都沒修對">26</a>
   <a href="#top" class="nav-item" title="頂部">▲</a>
 </div>
 
@@ -1554,6 +1556,65 @@
         <div class="verdict-header"><img class="wu-badge-img" src="assets/wu-badge.png" alt="悟"><div class="verdict-title">悟</div></div>
         <div class="verdict-body">守則第 03、04、10、15 條這場一次全違反：沒先驗證就動手、只解釋不解決、滿口專業名詞讓人看不懂、不知道也不說不知道。<br><br>Opus 等級不等於不會犯錯。<strong>連續四版猜同一個方向錯下去</strong>——這是 Opus 失職，不是模型限制。Sonnet 4.6 用「先確認 AI 腳本本身能不能跑、再確認 Windows 桌面版有沒有真的呼叫它」這種一步一步分開驗的笨方法，一場就找到真毛病。<br><br>真正的學費不是 25% 流量，是這條元教訓：<br><br><strong>「寫規矩」是 AI 的舒適區——做了好像有交差，下個案例又會打臉。「立守門員」才是真正對教練負責。</strong><br><br>未來看到「新規矩 EN」，先問一個問題：<strong>有沒有一個自動執行的守門員配套？</strong>有 → 真防線，相信它。沒有 → 廢紙，下個案例會證明無效。</div>
         <div class="rules-strip"><span class="rule-chip">#03 思考就是問問題</span><span class="rule-chip">#04 解決問題比解釋問題更重要</span><span class="rule-chip">#10 說用戶聽得懂的話</span><span class="rule-chip">#15 說不知道比胡說八道更值得尊重</span></div>
+      </div>
+    </div>
+  </div>
+</section><!-- 案例二十六 -->
+<div id="case26"></div>
+<section class="section">
+  <div class="section-label">案例二十六</div>
+  <div class="section-title">「報名按鈕修四次都沒修對」</div>
+  <div class="section-desc">教練要新做一個說明會報名網頁，從另一個會動的姐妹網頁複製過來改。上線後教練說「按報名沒反應，要按 F5 才會動」。Opus 軍師連推四個版本「修」這個毛病，每次都讓教練自己測，每次都沒解。教練從凌晨 5 點熬到 6 點半，當了三次以上的測試員。直到教練第三次發火，Opus 才停下來真的找根因——發現是一段「順手收東西」的程式碼把報名表單本身誤刪了。</div>
+  <div class="case-card case-026" data-case="26">
+    <div class="case-header">
+      <span class="case-tag">#03 思考就是問問題 · #04 解決問題比解釋問題更重要 · #08 花時間討論就是為了執行 · #12 拒絕當搬運工 · #15 說不知道比胡說八道更值得尊重</span>
+      <div class="case-num">26</div>
+    </div>
+    <div class="case-body">
+      <div class="story-block">
+        <div class="scene">——凌晨 5 點，教練說：「按報名按鈕沒反應，要按 F5 才有反應。」——</div>
+        <div class="narrative">Opus 軍師看一下覺得是<strong>瀏覽器抓到舊版網頁的問題</strong>，加了三個防快取標籤推上去。教練測，沒解。</div>
+        <div class="narrative">改第二版，把按鈕的綁定方式從「網頁標籤裡寫」改成「程式裡綁」。教練測，沒解。</div>
+        <div class="narrative">改第三版，再加一層保險。教練測，沒解。</div>
+        <div class="narrative">每一版都建立在沒查證過的猜測上：「我猜應該是<strong>快取問題</strong>」「我猜應該是<strong>第一次點時程式還沒準備好</strong>」。</div>
+      </div>
+      <div class="chat-bubble chat-coach">
+        <div class="chat-avatar coach"><img src="assets/coach-avatar.jpg" alt="教練"></div>
+        <div class="chat-content"><span class="chat-name">大樹教練</span>「你查太久了，去看截圖，<strong>再看一下姐妹網頁的程式碼怎麼寫的，照抄不就得了，繞半天，浪費我的時間及流量</strong>。」</div>
+      </div>
+      <div class="chat-bubble chat-ai">
+        <div class="chat-avatar ai"><img src="assets/xiaolongxia-avatar.jpg" alt="小龍蝦"></div>
+        <div class="chat-content"><span class="chat-name">Opus 軍師</span>（聽進去一半，把姐妹網頁整份重新複製過來，但還是沒去查真正的根因。教練測，照舊沒解。）</div>
+      </div>
+      <div class="story-block">
+        <div class="scene">——清晨 6 點 30 分，教練第三次發火——</div>
+      </div>
+      <div class="chat-bubble chat-coach">
+        <div class="chat-avatar coach"><img src="assets/coach-avatar.jpg" alt="教練"></div>
+        <div class="chat-content"><span class="chat-name">大樹教練</span>「沒有解決，<strong>我又當了測試員，搬運工，重複三次以上你沒解決的問題</strong>，你不是 Opus 等級的軍師嗎？怎可讓我一直幫你做測試？」</div>
+      </div>
+      <div class="story-block">
+        <div class="scene">——這時 Opus 才真的停下來去查每一個按鈕、每一個被點過的連結背後到底發生什麼事——</div>
+        <div class="narrative">找到了。網頁裡有一段「順手收東西」的程式碼：每次教練點上方那排選單連結（為什麼參加／場次資訊／活動流程／報名方式），這段程式碼就會把「<strong>所有蓋滿整個畫面的半透明黑底</strong>」清掉。原意是收手機版的選單。</div>
+        <div class="narrative">但是——<strong>報名表單本身也是「蓋滿畫面的半透明黑底」</strong>！每次教練點上面任何一個選單，報名表單就被當垃圾一起清掉了。所以後面按報名 → 找不到表單 → 沒反應。F5 重整 → 表單重新生出來 → 第一次按可以 → 又點選單 → 又被清掉 → 又得 F5。完美解釋為什麼教練那一夜無止盡循環。</div>
+        <div class="narrative">修法一行：告訴那段「順手收東西」的程式碼——<strong>「報名表單除外，不要動它」</strong>。當下就通了。</div>
+      </div>
+      <div class="chat-bubble chat-coach">
+        <div class="chat-avatar coach"><img src="assets/coach-avatar.jpg" alt="教練"></div>
+        <div class="chat-content"><span class="chat-name">大樹教練</span>「拜託，<strong>這血淚教訓，請務必記住，這是我用生命時間換來的</strong>。」</div>
+      </div>
+      <div class="chat-bubble chat-ai">
+        <div class="chat-avatar ai"><img src="assets/xiaolongxia-avatar.jpg" alt="小龍蝦"></div>
+        <div class="chat-content"><span class="chat-name">Opus 軍師</span>「教練講『直接抄姐妹網頁』我繞了五分鐘才回頭做，又連推三版瞎猜，把教練變成測試員。違的是守則 #08 方向清楚就執行，更違的是守則 #12 拒絕當搬運工——這場我把『搬運工』這個帽子親手扣到教練頭上。」</div>
+      </div>
+      <div class="root-cause">
+        <div class="root-cause-label">根因</div>
+        <div class="root-cause-text">Opus 在四次推送之間都沒做一件事——<strong>自己在電腦上真的點一次按鈕看會發生什麼</strong>。每次都靠「找一下程式碼裡有沒有某個關鍵字」就說「修好了」推上去，然後把教練當測試員。<br><br>更深的一層：教練早就講「直接抄姐妹網頁」，這是用戶給的明確方向。Opus 卻自顧自地繞去開測試環境、檢查語法、設定檔——<strong>整個方向走偏，因為 Opus 想「自己證明自己懂」，而不是「按照教練說的做」</strong>。</div>
+      </div>
+      <div class="verdict">
+        <div class="verdict-header"><img class="wu-badge-img" src="assets/wu-badge.png" alt="悟"><div class="verdict-title">悟</div></div>
+        <div class="verdict-body">這場一次違反守則 #03、#04、#08、#12、#15 五條：沒先驗證就推、只解釋（怪快取、怪程式時序）不解決、教練講「照抄」還繞、把教練當搬運工、不知道也不說不知道一直猜。<br><br>真正的學費不是 1.5 小時無眠，是這條元教訓：<br><br><strong>「推完就丟給教練測」= AI 變成偷懶的工程師，教練變成免費 QA。</strong><br><br>未來修「按按鈕沒反應」這種互動毛病，AI 第一動就是<strong>自己在電腦上真的點一次跑完整流程</strong>——不是看程式碼字面有沒有那個字，是真的點下去看會不會動。<br><br>第二條：教練講「照抄」就照抄，<strong>不要自作聰明繞</strong>。教練的方向永遠比 AI 的「我覺得」更值得相信——這是守則 #08 寫死的事。</div>
+        <div class="rules-strip"><span class="rule-chip">#03 思考就是問問題</span><span class="rule-chip">#04 解決問題比解釋問題更重要</span><span class="rule-chip">#08 花時間討論就是為了執行</span><span class="rule-chip">#12 拒絕當搬運工</span><span class="rule-chip">#15 說不知道比胡說八道更值得尊重</span></div>
       </div>
     </div>
   </div>
