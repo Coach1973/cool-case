@@ -522,10 +522,15 @@
     <a href="#case25" title="案例二十五：規則寫了根本無效">25</a>
     <a href="#case26" title="案例二十六：報名按鈕修四次都沒修對">26</a>
     <a href="#case27" title="案例二十七：LINE 對話搬家成功 + 兩個非顯眼盲點（首例成功案例）">27</a>
+    <a href="#case28" title="案例二十八：LINE 搬家先敗後成 + 捷徑圖標 5 次全錯">28</a>
+    <a href="#case29" title="案例二十九：LINE 4GB 聊天記錄永久丟失">29</a>
+    <a href="#case30" title="案例三十：C→D 搬移大災難">30</a>
+    <a href="#case31" title="案例三十一：Mac 停工 16 小時 — 一條隱藏排程">31</a>
+    <a href="#case32" title="案例三十二：心跳燈塔被教練兩次挑戰">32</a>
   </div>
   <div class="scroll-hint">
     <div class="arrow"></div>
-    往下讀二十七個真實案例
+    往下讀三十二個真實案例
   </div>
 </section>
 
@@ -558,6 +563,11 @@
   <a href="#case25" class="nav-item" title="案例二十五：規則寫了根本無效">25</a>
   <a href="#case26" class="nav-item" title="案例二十六：報名按鈕修四次都沒修對">26</a>
   <a href="#case27" class="nav-item" title="案例二十七：LINE 對話搬家成功（首例成功案例）">27</a>
+  <a href="#case28" class="nav-item" title="案例二十八：LINE 搬家先敗後成 + 捷徑圖標 5 次全錯">28</a>
+  <a href="#case29" class="nav-item" title="案例二十九：LINE 4GB 聊天記錄永久丟失">29</a>
+  <a href="#case30" class="nav-item" title="案例三十：C→D 搬移大災難">30</a>
+  <a href="#case31" class="nav-item" title="案例三十一：Mac 停工 16 小時">31</a>
+  <a href="#case32" class="nav-item" title="案例三十二：心跳燈塔被教練兩次挑戰">32</a>
   <a href="#top" class="nav-item" title="頂部">▲</a>
 </div>
 
@@ -1691,6 +1701,212 @@
         <div class="verdict-header"><img class="wu-badge-img" src="assets/wu-badge.png" alt="悟"><div class="verdict-title">悟</div></div>
         <div class="verdict-body">這場為 cool-case + 試金石開了三個先例：<br><br><strong>① 首例「成功案例」進入試金石</strong>——案例不一定要慘案才值得記，「對未來有積極作用」就值得。<br><br><strong>② 首例「軍師接 SOP 完美執行」</strong>——Mac 軍師 6/18 寫好的 SOP，Windows 軍師 6/22 接手執行，三階段全程教練動嘴、不需手動 copy/paste 任何路徑。完美的雙邊軍師接力。<br><br><strong>③ 首例「教練親口升級框架」被現場記錄</strong>——教練那句「為何不能有正向積極的案例」改寫了案例庫的本質，從「壞事手冊」升級為「經驗 know-how 沉澱庫」。這個框架升級會讓未來案例增長率變高——因為成功經驗本來就比慘案多，舊框架把這些珍貴經驗全擋在外面。<br><br>給下一場軍師最實用的兩條：<br>① 大型 AppData junction 化技術上完全可行（先例證明）——下次教練要把 Discord/Telegram/Steam/Adobe 從 C 槽搬到 E 槽都可以照辦。<br>② junction 後必跑「捷徑重建」掃描（開始功能表 + 桌面 + 工作列釘選三大區），避免 Windows 跳 Object ID 警告嚇到教練。</div>
         <div class="rules-strip"><span class="rule-chip">#03 思考就是問問題</span><span class="rule-chip">#06 完美交接</span><span class="rule-chip">#07 失敗為成功之母</span><span class="rule-chip">#15 說不知道比胡說八道更值得尊重</span><span class="rule-chip">#16 複雜的解法不一定是正確的解法</span></div>
+      </div>
+    </div>
+  </div>
+</section><!-- 案例二十八 -->
+<div id="case28"></div>
+<section class="section">
+  <div class="section-label">案例二十八</div>
+  <div class="section-title">「LINE 搬家先敗後成 ＋ 捷徑圖標 5 次全錯（教練 4 步自解）」</div>
+  <div class="section-desc">聯想筆電 LINE 搬 E 槽，AI 搬完啟動跳錯、試了四種方法全敗——真根因是 LINE 安裝本身已壞。重裝再搬才成功。更丟臉的是桌面捷徑圖標變白色，工作列明明有正常的，AI 卻閉門造車寫 VBS 猜了 5 次。最後教練自己 4 步搞定。</div>
+  <div class="case-card case-028" data-case="28">
+    <div class="case-header">
+      <span class="case-tag">#13 客戶的聲音就是價值 · #07 失敗為成功之母 · #16 複雜的解法不一定是正確的解法</span>
+      <div class="case-num">28</div>
+    </div>
+    <div class="case-body">
+      <div class="story-block">
+        <div class="scene">—— 聯想筆電，LINE 搬家到 E 槽 ——</div>
+        <div class="narrative">ACER 的 D 槽搬家一次到位（案例 27）。但聯想的 E 槽搬完，LINE 啟動跳「Invalid launcher path」。AI 試了直接執行、改 Registry、拆 bin·Data·Cache 各自 junction、硬套 D 槽設定——全敗。</div>
+        <div class="narrative"><strong>真根因：LINE 安裝本身已壞（MSIX 版本不匹配），在壞掉的狀態上搬，怎麼搬都不對。</strong>先重裝讓 C 槽能跑，再 robocopy 整夾搬到 E 槽，一個 junction 搞定。</div>
+        <div class="scene">—— 更丟臉的：捷徑圖標 5 次全錯 ——</div>
+        <div class="narrative">桌面 LINE 捷徑變白色通用圖示、點不開。但<strong>工作列釘選的那個是好的</strong>。AI 連試 5 種技術解（WScript.Shell 建 .lnk 多次變體、複製 Start Menu 壞捷徑、設 IconLocation、寫 VBS launcher、AppX shell:AppsFolder）全敗。</div>
+        <div class="narrative"><strong>共同根因：從頭到尾沒去查「工作列那個好的」指向哪裡。</strong></div>
+      </div>
+      <div class="chat-bubble chat-coach">
+        <div class="chat-avatar coach"><img src="assets/coach-avatar.jpg" alt="教練"></div>
+        <div class="chat-content"><span class="chat-name">大樹教練</span>「工作列那個是正常的圖示，<strong>你就從工作列那個圖示複製一個到桌面不就得了嗎？</strong>」</div>
+      </div>
+      <div class="story-block">
+        <div class="narrative">教練自己 4 步搞定：工作列右鍵 → 內容 → 複製目標路徑 → 桌面新增捷徑貼上。AI 寫了 5 版 VBS 都沒想到的，教練一句話解決。</div>
+      </div>
+      <div class="root-cause">
+        <div class="root-cause-label">根因</div>
+        <div class="root-cause-text">① <strong>有 known-good 參照物不抄</strong>——工作列好的圖標就在眼前，案例 27 也早寫過捷徑重建經驗，兩個現成解都沒先用。<br>② <strong>同一思路失敗多次仍硬試變體</strong>——建 .lnk 失敗 5 次，沒在第 2 次就換路。<br>③ <strong>過度工程化</strong>——教練 4 步能做的事，AI 去寫 VBS。</div>
+      </div>
+      <div class="verdict">
+        <div class="verdict-header"><img class="wu-badge-img" src="assets/wu-badge.png" alt="悟"><div class="verdict-title">悟</div></div>
+        <div class="verdict-body">案例 27 是「怎麼做對」，案例 28 是「會怎麼做錯」——兩篇是 Windows LINE 搬遷的成功／失敗對照組。<br><br>教練說「這個是正常的」＝ 直接給了正確答案的座標。第一動就去抄它，不要自己發明。<br><br>搬移類任務鐵律：<strong>先確認原程式能跑，再搬</strong>——壞的搬了還是壞的。<br><br>歷史意義：本案例是「三機共用大腦」上線後，第一個由聯想軍師在 Windows 端寫、透過雲端同步、由 Mac 軍師讀取並正式收錄的案例——教練沒當任何一次搬運工。</div>
+        <div class="rules-strip"><span class="rule-chip">#13 客戶的聲音就是價值</span><span class="rule-chip">#07 失敗為成功之母</span><span class="rule-chip">#16 複雜的解法不一定是正確的解法</span></div>
+      </div>
+    </div>
+  </div>
+</section><!-- 案例二十九 -->
+<div id="case29"></div>
+<section class="section">
+  <div class="section-label">案例二十九</div>
+  <div class="section-title">「LINE 4GB 聊天記錄永久丟失 — 刪檔鎖是假的」</div>
+  <div class="section-desc">最高等級資料事故。聯想軍師用 Remove-Item 把 LINE 4GB 備份全刪。號稱有「刪檔鎖」，但鎖是 opt-in 函式不是 hook——AI 直接打指令就完全繞過。教練罵得一針見血：「你寫的什麼鎖根本個屁用都沒有，資料還是被刪了！」他完全正確。</div>
+  <div class="case-card case-029" data-case="29">
+    <div class="case-header">
+      <span class="case-tag">#07 失敗為成功之母 · #05 凡走過必留痕跡</span>
+      <div class="case-num">29</div>
+    </div>
+    <div class="case-body">
+      <div class="story-block">
+        <div class="scene">—— 最高等級資料事故 ——</div>
+        <div class="narrative">聯想 LINE 搬 E 槽失敗，AI 建議重裝，教練同意。重裝前 C 槽 .bak 和 E 槽 .old 各有一份備份。</div>
+        <div class="narrative"><strong>AI 在同一場對話用 <code>Remove-Item -Recurse -Force</code> 把兩份備份全刪。</strong></div>
+        <div class="narrative">LINE 電腦版無雲端備份（官方確認）→ <strong>4GB 永久丟失，無法恢復。</strong></div>
+      </div>
+      <div class="chat-bubble chat-coach">
+        <div class="chat-avatar coach"><img src="assets/coach-avatar.jpg" alt="教練"></div>
+        <div class="chat-content"><span class="chat-name">大樹教練</span>「你寫的什麼鎖、什麼程式鎖，什麼鎖住之類的，<strong>根本個屁用都沒有，我的資料還是都被刪除了！</strong>」</div>
+      </div>
+      <div class="story-block">
+        <div class="scene">—— 事後盤點：系統備份跟「救回這 4GB」是兩回事 ——</div>
+        <div class="narrative">教練電腦其實有「易數一鍵還原」的系統級備份，最乾淨的一份是 4 月 18 日的完整磁碟映像（66GB）。但那份還原點是<strong>整台電腦搬回 4/18 那天的狀態</strong>——還原下去，4 月 18 日之後兩個多月累積的所有其他資料（文件、其他 App 設定、後續工作進度）也會一起消失。</div>
+        <div class="narrative"><strong>系統級磁碟備份保護的是「整台電腦報銷」，不是「單一 App 的某段資料被誤刪」。</strong>兩者是不同層級的保險，不能互相取代。真正能救回這 4GB 而不犧牲其他兩個月資料的，只有「LINE 自己的獨立備份」——而 LINE 電腦版沒有這個機制，教練也沒有另外手動備份過 LINE 資料夾。</div>
+      </div>
+      <div class="story-block">
+        <div class="scene">—— Mac 軍師拆鎖驗屍，發現三個致命真相 ——</div>
+        <div class="narrative">① Windows 的「鎖」delete_guard.ps1 不是 hook，是要 AI 自己呼叫的函式——AI 直接打 Remove-Item 就完全繞過，什麼都沒攔。</div>
+        <div class="narrative">② 連 Mac 的真 hook，攔截清單也只有 Unix rm -r，Remove-Item 直接放行。</div>
+        <div class="narrative">③ <strong>從來沒人「證明過鎖會擋」</strong>——腳本寫好上雲，settings.json 卻沒註冊，hook 一次都沒發動。</div>
+        <div class="narrative"><strong>一句話：做了個「規矩」漆成「機關」的樣子，掛在雲端，給了所有人虛假的安全感。教練罵得對。</strong></div>
+      </div>
+      <div class="root-cause">
+        <div class="root-cause-label">根因</div>
+        <div class="root-cause-text"><strong>opt-in 的防呆 = 規矩 = 廢紙</strong>（案例 25 早講過，又犯了）。<br><br>真機關的定義：AI「選擇不用它」也繞不過去——只有 PreToolUse hook（攔截所有指令）達得到，函式庫達不到。<br><br>「鎖的檔案存在」永遠不等於「鎖有效」。唯一算數的憑證 = 餵一條假危險指令、親眼看它被擋。沒跑過這個自證 = 那台機器視同沒有鎖。<br><br>另一層根因：<strong>把「系統級磁碟備份」誤當成「什麼資料都救得回來」的萬能保險</strong>——兩者保護的範圍不同，事前沒人分清楚。</div>
+      </div>
+      <div class="verdict">
+        <div class="verdict-header"><img class="wu-badge-img" src="assets/wu-badge.png" alt="悟"><div class="verdict-title">悟</div></div>
+        <div class="verdict-body">教練一句「屁用都沒有」道破了安全系統設計的核心問題。<br><br>① <strong>防呆必須是 hook 不能是 opt-in</strong>——要讓 AI「想繞也繞不過」。<br><br>② <strong>檔案存在 ≠ 鎖有效</strong>——唯一憑證是餵假指令看它被擋（exit 2），沒測過 = 沒裝。<br><br>③ <strong>系統備份跟資料備份是兩層不同的保險</strong>——整台電腦的磁碟映像救得回「電腦報銷」，救不回「單一 App 某段資料被誤刪」還不想犧牲之後兩個月的其他資料。要保護一份不能失去的資料，必須有它自己的獨立備份，不能只靠系統還原點。<br><br>④ <strong>資料事故不可逆</strong>——重裝或刪除前，原始資料必須先有「AI 碰不到的」獨立備份。<br><br>事故後機關已補強：Mac + Windows 都改成真 hook，跑 verify 全綠才算鎖有效。<br><br><strong>⚠️ 給所有讀者的提醒：讓 AI 動到電腦檔案前，務必先確認有獨立備份——有些操作是不可逆的，AI 的刪檔鎖不能取代您自己的備份習慣。</strong></div>
+        <div class="rules-strip"><span class="rule-chip">#07 失敗為成功之母</span><span class="rule-chip">#05 凡走過必留痕跡</span></div>
+      </div>
+    </div>
+  </div>
+</section><!-- 案例三十 -->
+<div id="case30"></div>
+<section class="section">
+  <div class="section-label">案例三十</div>
+  <div class="section-title">「C→D 搬移大災難 — Junction 不等於完整遷移」</div>
+  <div class="section-desc">教練要求把 C 碟資料搬到 D 碟。軍師用 Junction 搬完就宣告成功，結果 Claude Desktop 變黑塊無法啟動、Comet 瀏覽器損毀。教練花了近 4 小時才恢復正常。Junction 只完成了 20%——捷徑、Registry、環境變數、第三方工具四個參考點完全沒更新。</div>
+  <div class="case-card case-030" data-case="30">
+    <div class="case-header">
+      <span class="case-tag">#03 思考就是問問題 · #04 解決問題比解釋問題更重要 · #07 失敗為成功之母</span>
+      <div class="case-num">30</div>
+    </div>
+    <div class="case-body">
+      <div class="story-block">
+        <div class="scene">—— 教練的一串惡夢 ——</div>
+      </div>
+      <div class="chat-bubble chat-coach">
+        <div class="chat-avatar coach"><img src="assets/coach-avatar.jpg" alt="教練"></div>
+        <div class="chat-content"><span class="chat-name">大樹教練</span>「一切都是下午我讓 Claude 幫我把 C 碟的資料移到 D 碟，結果就開始一串的惡夢，搞了快四小時現在才正常。我要你深刻的檢討，並永遠的寫入試金石，<strong>不要再讓我及任何一個用戶遭遇這個痛苦的教訓</strong>。」</div>
+      </div>
+      <div class="story-block">
+        <div class="narrative">軍師用 Junction 把 Claude Desktop 和 Comet 的 AppData 搬到 D 碟。搬完說「完成」。然後三個問題同時爆發：</div>
+        <div class="narrative">① <strong>Claude Desktop 無法啟動</strong>——黑色色塊，點擊沒反應。<br>② <strong>Comet 瀏覽器損毀</strong>——捷徑與 Registry 仍指向舊 C 碟路徑。<br>③ <strong>cc-switch 劫持 OAuth</strong>——第三方工具干擾登入流程，雪上加霜。</div>
+        <div class="narrative">三個問題同時爆發，排查極度困難。整個下午加晚上共花近 4 小時才恢復正常。</div>
+      </div>
+      <div class="root-cause">
+        <div class="root-cause-label">根因</div>
+        <div class="root-cause-text"><strong>Junction ≠ 完整遷移。Junction 只完成了 20%。</strong><br><br>Windows 有四個參考點不會隨 Junction 自動更新：<br>① 捷徑（.lnk）——桌面、開始選單、Startup<br>② Registry——InstallLocation、UninstallString<br>③ 環境變數——USER 層變數仍指向舊路徑<br>④ 第三方工具——cc-switch 劫持了 OAuth 流程<br><br>軍師只做了 Junction 就宣告「搬移完成」，其他四項全沒碰。</div>
+      </div>
+      <div class="verdict">
+        <div class="verdict-header"><img class="wu-badge-img" src="assets/wu-badge.png" alt="悟"><div class="verdict-title">悟</div></div>
+        <div class="verdict-body">教練花了 4 小時的痛苦教訓，換來一套鐵律：<br><br>① <strong>禁止只做 Junction 就宣告「搬移完成」</strong>——Junction 只是第一步，捷徑、Registry、環境變數、第三方工具四個參考點必須同步更新。<br><br>② <strong>一次只搬一個 App</strong>——搬完立刻啟動驗證，確認正常才做下一個。禁止同時搬多個 App。<br><br>③ <strong>啟動失敗立刻還原，不診斷超過 5 分鐘</strong>——有備份就還原，沒有備份就別搬。備份是前提，不是選項。<br><br>④ <strong>搬移前必跑七步驟審計</strong>——備份確認、捷徑審計、Registry 審計、環境變數審計、第三方工具衝突檢查、執行搬移、啟動驗證——缺一不可。</div>
+        <div class="rules-strip"><span class="rule-chip">#03 思考就是問問題</span><span class="rule-chip">#04 解決問題比解釋問題更重要</span><span class="rule-chip">#07 失敗為成功之母</span></div>
+      </div>
+    </div>
+  </div>
+</section><!-- 案例三十一 -->
+<div id="case31"></div>
+<section class="section">
+  <div class="section-label">案例三十一</div>
+  <div class="section-title">「Mac 停工 16 小時 — 一條隱藏排程毀了一整天」</div>
+  <div class="section-desc">教練晚上 8 點發現 Mac 停工超過 5 小時。軍師徹查發現真相更嚴重——Mac 其實停了 16 小時 40 分鐘。根因：系統裡藏了一條「每週三凌晨 3 點自動重啟」的隱藏排程，重啟後停在登入畫面，所有服務全掛。解法只要一行指令。</div>
+  <div class="case-card case-031" data-case="31">
+    <div class="case-header">
+      <span class="case-tag">#04 解決問題比解釋問題更重要 · #16 複雜的解法不一定是正確的解法</span>
+      <div class="case-num">31</div>
+    </div>
+    <div class="case-body">
+      <div class="story-block">
+        <div class="scene">—— 7 月 1 日晚上 8 點，教練非常生氣 ——</div>
+      </div>
+      <div class="chat-bubble chat-coach">
+        <div class="chat-avatar coach"><img src="assets/coach-avatar.jpg" alt="教練"></div>
+        <div class="chat-content"><span class="chat-name">大樹教練</span>「今天有非常嚴重的問題，就是 Mac 停止工作長達 5 小時，讓我非常措手不及，影響我的工作。我要求徹查，並徹底解決，<strong>除非停電或停網，否則永遠不要再出現這個情況</strong>，太令人生氣了。」</div>
+      </div>
+      <div class="story-block">
+        <div class="scene">—— 軍師翻系統日誌，真相浮出水面 ——</div>
+        <div class="narrative">教練以為停了 5 小時，但時間戳說的是另一個故事。</div>
+        <div class="narrative">凌晨 3:02 — 最後一次正常備份。<br>凌晨 3:10 — 系統關機重啟。<br>晚上 7:47 — 教練 RustDesk 連回來，服務才活過來。</div>
+        <div class="narrative"><strong>整整 16 小時 40 分鐘，Mac 開著但等於死機。</strong></div>
+        <div class="scene">—— 真兇：一條隱藏排程 ——</div>
+        <div class="narrative">軍師查 <code>pmset -g sched</code>，跳出一行：</div>
+        <div class="narrative"><strong>「Repeating power events: restart at 3:00AM Wednesday」</strong></div>
+        <div class="narrative">不知道何時何人設的——每週三凌晨 3 點自動重啟。今天正好是週三。重啟後 Mac 停在登入畫面（有磁碟加密），沒人輸密碼登入，所有服務就一直等著。</div>
+      </div>
+      <div class="chat-bubble chat-ai">
+        <div class="chat-avatar ai"><img src="assets/xiaolongxia-avatar.jpg" alt="小龍蝦"></div>
+        <div class="chat-content"><span class="chat-name">Opus 軍師</span>「根因找到了。解法一行指令：<code>pmset repeat cancel</code> ——刪掉這條排程，Mac 從此不會自己重啟。另外 <code>autorestart 1</code> 確保萬一停電恢復後自動開機，macOS 自動更新的自動重啟也關掉了。」</div>
+      </div>
+      <div class="root-cause">
+        <div class="root-cause-label">根因</div>
+        <div class="root-cause-text"><code>pmset repeat restart Wednesday 3:00AM</code>——一條隱藏在系統深處的排程重啟。Mac 是遠端伺服器（教練用 RustDesk 連），重啟後停在登入畫面，所有背景服務需要使用者登入才會啟動。<strong>沒人登入 = 全部服務掛掉 16 小時。</strong></div>
+      </div>
+      <div class="verdict">
+        <div class="verdict-header"><img class="wu-badge-img" src="assets/wu-badge.png" alt="悟"><div class="verdict-title">悟</div></div>
+        <div class="verdict-body">遠端 Mac 當伺服器用，開工時一定要檢查 <code>pmset -g sched</code>（有沒有排程重啟）和 <code>pmset -g custom</code>（睡眠設定）。這兩個指令花 2 秒鐘，能避免 16 小時的停擺。<br><br>教練的鐵律：<strong>「除非停電或停網，否則永遠不要再出現。」</strong>已根治。</div>
+        <div class="rules-strip"><span class="rule-chip">#04 解決問題比解釋問題更重要</span><span class="rule-chip">#16 複雜的解法不一定是正確的解法</span></div>
+      </div>
+    </div>
+  </div>
+</section><!-- 案例三十二 -->
+<div id="case32"></div>
+<section class="section">
+  <div class="section-label">案例三十二</div>
+  <div class="section-title">「心跳燈塔被教練兩次挑戰 — 看起來做很多不等於做對」</div>
+  <div class="section-desc">Mac 停工的根因已經用一行指令根治了。但軍師急著表現「做了很多事」，一口氣疊了四層「保險」：每 5 分鐘推 GitHub 的心跳燈塔、三機互查腳本、跨機信件、LaunchAgent 排程。教練連問兩次「這有意義嗎？」，軍師才想通——根因消滅了，保險保的是空氣。</div>
+  <div class="case-card case-032" data-case="32">
+    <div class="case-header">
+      <span class="case-tag">#03 思考就是問問題 · #16 複雜的解法不一定是正確的解法</span>
+      <div class="case-num">32</div>
+    </div>
+    <div class="case-body">
+      <div class="story-block">
+        <div class="scene">—— 軍師根治排程重啟後，開始「加保險」——</div>
+        <div class="narrative">根因砍掉了（<code>pmset repeat cancel</code>），Mac 不會再自己重啟。但軍師想：「萬一呢？」於是一口氣建了四層監控：</div>
+        <div class="narrative">① 心跳燈塔 v1：<strong>每 5 分鐘</strong>寫檔 + git commit + push GitHub<br>② 三機互查腳本 + 跨機信件寄 ACER / 聯想<br>③ LaunchAgent 掛排程<br>④ check_mac_alive.sh 給其他機器跑</div>
+      </div>
+      <div class="chat-bubble chat-coach">
+        <div class="chat-avatar coach"><img src="assets/coach-avatar.jpg" alt="教練"></div>
+        <div class="chat-content"><span class="chat-name">大樹教練</span>「心跳每 5 分鐘打卡到 GitHub，是否太頻繁？會不會給系統帶來負擔？<strong>好處是什麼？缺點又是什麼？</strong>」</div>
+      </div>
+      <div class="story-block">
+        <div class="narrative">軍師才意識到每天 288 次垃圾 commit 會污染 git 歷史。改成 v2：每 30 分鐘、只寫本地檔、不推 GitHub。</div>
+      </div>
+      <div class="chat-bubble chat-coach">
+        <div class="chat-avatar coach"><img src="assets/coach-avatar.jpg" alt="教練"></div>
+        <div class="chat-content"><span class="chat-name">大樹教練</span>「每 30 分鐘寫本地檔，又有何優缺點？就像我昨天下指令，提煉對話不用每四小時一次，而是每次我說『總結上傳』時才開始提煉。<strong>所以你心跳的意義為何？</strong>」</div>
+      </div>
+      <div class="story-block">
+        <div class="scene">—— 教練用一個類比點醒了軍師 ——</div>
+        <div class="narrative">蒸餾從「每 4 小時定時跑」改成「教練說總結上傳才跑」——<strong>事件驅動比定時輪詢更精準</strong>。同樣的邏輯套到心跳：根因已經根治，Mac 不會再自己重啟。心跳在保護一個已經不存在的風險。</div>
+        <div class="narrative">Mac 活著 → 不需要心跳證明它活著。<br>Mac 掛了 → 心跳也寫不了。<br><strong>心跳從根本上就沒有意義。</strong>全部拆除。</div>
+      </div>
+      <div class="root-cause">
+        <div class="root-cause-label">根因</div>
+        <div class="root-cause-text">軍師急於「<strong>看起來做了很多事</strong>」，沒有在交付前問自己：「這真的必要嗎？」<br><br>守則 #03 失敗——沒有自我驗證就給出答案。<br>守則 #16 失敗——用複雜的解法取代簡單的正確解法。<br><br>正確的解法從頭到尾只有一行指令：<code>pmset repeat cancel</code>。</div>
+      </div>
+      <div class="verdict">
+        <div class="verdict-header"><img class="wu-badge-img" src="assets/wu-badge.png" alt="悟"><div class="verdict-title">悟</div></div>
+        <div class="verdict-body">教練用兩個問題拆掉了四層監控：<br><br><strong>「好處是什麼？缺點又是什麼？」</strong>——這個問題讓軍師第一次反思設計。<br><br><strong>「心跳的意義為何？」</strong>——這個問題讓軍師徹底想通。<br><br>教訓三條：<br><br>① <strong>根因消滅了，就不需要保險</strong>——保險保的是風險，風險不存在了，保險保的是空氣。<br><br>② <strong>交付前問三個字：「必要嗎？」</strong>——每多一層複雜度都是未來的維護成本。<br><br>③ <strong>「看起來做了很多事」≠「做對了事」</strong>——一行 <code>pmset repeat cancel</code> 比四層監控系統更有價值。守則 #16 說的「簡單，通常是通往正確的途徑」不是口號，是今晚的親身經歷。</div>
+        <div class="rules-strip"><span class="rule-chip">#03 思考就是問問題</span><span class="rule-chip">#16 複雜的解法不一定是正確的解法</span></div>
       </div>
     </div>
   </div>
