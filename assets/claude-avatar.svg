@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" width="60" height="60">
+  <circle cx="30" cy="30" r="27" fill="#ffffff" stroke="#c45a36" stroke-width="2"/>
+  <text x="30" y="30" font-family="'Microsoft JhengHei','PingFang TC',sans-serif" font-size="10" font-weight="500" fill="#c45a36" text-anchor="middle">克勞德</text>
+  <text x="30" y="44" font-family="Arial,sans-serif" font-size="8" font-weight="400" fill="#c45a36" text-anchor="middle">Claude</text>
+</svg>
